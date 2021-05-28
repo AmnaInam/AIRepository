@@ -1,5 +1,5 @@
 class QSort {
-	int[] arr = { 3,5,6,6,1,3,0,8,1,9,7,4,7,7,6 };
+	int[] arr = { 3,5,6,6,1,3,0,8};//edited this array 
 
 	int qsort(int l, int h) {
 		int piviot = arr[l], i = l, j = h;
